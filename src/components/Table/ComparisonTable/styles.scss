@@ -1,0 +1,46 @@
+.comparison-top-container {
+  justify-content: space-between; 
+  padding:8px 16px;
+
+  div {
+    font-size: 14px;
+  }
+}
+.comparison-container {
+  padding-inline: 16px;
+  justify-content: space-between; 
+  border-radius: 8px;
+  height: 32px;
+  align-items: center;
+  border: 1px solid rgba(153, 153, 153, 0.10);
+  margin: 4px 0;
+  > div {
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    margin: 12px 0;
+    align-items: center;
+    text-align: center;
+    width: 24%;
+  }
+  .receive {
+    justify-content: right;
+  }
+  .price {
+    justify-content: center;
+  }
+  .pair-name {
+    justify-content: center;
+  }
+}
+
+.comparison-table-container{
+  height: 290px;
+}
+
+.comparison-container-list{
+  > div {
+    width: 24%;
+    color: #999 !important;
+  }
+}

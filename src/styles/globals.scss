@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './fonts.scss'; 
+
+html,
+body {
+  font-family:
+    "Neue Machina",
+    sans-serif,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    "Liberation Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+:root {
+  --foreground-color: #1B1B1B;
+  --background-start-color: #d6dbdc;
+  --background-end-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-color: #ffffff;
+    --background-start-color: #1B1B1B;
+    --background-end-color: #1B1B1B;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 32px;
+  max-width: 1632px;
+  margin: 0 auto;
+  background: var(--background);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+html,
+body,
+#app {
+  min-height: 100vh; 
+  height: 100%;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(15px, -15px);
+  }
+}
+
+.icon-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+
+*,
+*::before,
+*::after,
+html {
+  scrollbar-width: thin; 
+  scrollbar-color: rgba(130, 239, 166, 0.25) #1c1c1c;
+  
+  &::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px; 
+    border-radius: 3px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: rgba(130, 239, 166, 0.25) #1c1c1c;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: rgba(130, 239, 166, 0.25) #1c1c1c;
+    border-radius: 4px; 
+    border: 2px solid #e0e0e0; 
+  }
+  
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+}

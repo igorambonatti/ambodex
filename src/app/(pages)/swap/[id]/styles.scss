@@ -1,0 +1,24 @@
+.top-loader {
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, #7CE59F 0%, rgba(124, 229, 159, 0.00) 40.5%);
+  background-size: 200% 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  animation: slide 2s infinite linear;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.swap-detail-container  {
+ max-height: 100%;
+ height: 100%;
+ padding-bottom: 68px;
+}

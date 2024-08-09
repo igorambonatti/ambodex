@@ -1,0 +1,23 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_413_4735)">
+<rect width="48" height="48" rx="12" fill="url(#pattern0_413_4735)"/>
+<circle opacity="0.5" cx="8" cy="8" r="8" transform="matrix(0.866025 -0.5 0.866025 0.5 10.1436 32)" stroke="white" stroke-linecap="round" stroke-dasharray="0.01 3"/>
+<rect x="29.7092" y="35.293" width="2.44949" height="1.41421" rx="1" fill="white"/>
+<rect x="32.5791" y="31.2928" width="2.44949" height="1.41421" rx="1" fill="white"/>
+<rect x="29.7092" y="27.293" width="2.44949" height="1.41421" rx="1" fill="white"/>
+<rect x="22.781" y="25.6361" width="2.44949" height="1.41421" rx="1" fill="white"/>
+<rect x="15.853" y="27.2928" width="2.44949" height="1.41421" rx="1" fill="white"/>
+<rect x="12.9832" y="31.2928" width="2.44949" height="1.41421" rx="1" fill="white"/>
+<rect x="15.8528" y="35.293" width="2.44949" height="1.41421" rx="1" fill="white"/>
+<rect x="22.781" y="36.9497" width="2.44949" height="1.41421" rx="1" fill="white"/>
+</g>
+<defs>
+<pattern id="pattern0_413_4735" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_413_4735"/>
+</pattern>
+<clipPath id="clip0_413_4735">
+<rect width="48" height="48" rx="12" fill="white"/>
+</clipPath>
+<image id="image0_413_4735" width="1" height="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAQSURBVHgBAQUA+v8AAAAAAAAFAAFkeJU4AAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

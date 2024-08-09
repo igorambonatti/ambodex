@@ -1,0 +1,22 @@
+.StyledToastContainer {
+  top: 150px !important;
+  .Toastify__toast--error {
+    border-radius: 10px;
+    background: rgba(255, 83, 83, 0.05);
+    box-shadow: 0px 0px 68px 0px rgba(255, 255, 255, 0) inset,
+                0px 1px 4px 0px rgba(255, 255, 255, 0.05) inset,
+                -4px -8px 12px 0px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(43px);
+    border: 3px solid rgba(255, 83, 83, 0.3);
+  }
+
+  .Toastify__toast--success {
+    background: rgba(136, 252, 175, 0.05);
+    border-radius: 10px;
+    border: 3px solid rgba(136, 252, 175, 0.3);
+    box-shadow: 0px 0px 68px 0px rgba(255, 255, 255, 0) inset,
+                0px 1px 4px 0px rgba(255, 255, 255, 0.05) inset,
+                -4px -8px 12px 0px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(43px);
+  }
+}

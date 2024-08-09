@@ -1,0 +1,31 @@
+.bg-image {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  background: rgba(125, 230, 161, 0.05);
+  margin-right: 12px;
+}
+
+
+.winner-top-container {
+  padding: 16px;
+  justify-content: space-between; 
+  justify-items: center;
+  flex: 1;
+  div {
+    font-size: 14px;
+    color: #fff;
+  }
+}
+.winner-body {
+  margin-top: 16px;
+  max-height: 100%;
+}
+
+
+.winner-table-container{
+  max-height: calc(100% - 90px);
+}

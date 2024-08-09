@@ -1,0 +1,24 @@
+@keyframes circle {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translate(0px, -20px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translate(0px, -20px) rotate(-360deg);
+  }
+}
+
+.icon {
+  position: absolute;
+  animation: circle 20s linear infinite;
+  will-change: transform;
+}
+.iconsContainer {
+  filter: blur(4px); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  
+}

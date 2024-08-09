@@ -1,0 +1,22 @@
+
+  .banner-with-gradient-border {
+    background-color: #1b1b1b;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 12px;
+    border: solid 1px transparent;
+  }
+  .banner-with-gradient-border::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -1.5px;
+    bottom: -2.5px;
+    left: 100px;
+    z-index: -1;
+    border-radius: inherit;
+    background: linear-gradient(160deg, #1b1b1b 40%, #88fcaf);
+    pointer-events: none;
+  }

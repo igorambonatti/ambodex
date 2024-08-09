@@ -1,0 +1,42 @@
+$timer-sizes: (
+  'outer': 70px,
+  'middle': 55px,
+  'inner': 40px
+);
+
+@mixin timer-circle($size-key) {
+  $size: map-get($timer-sizes, $size-key);
+  width: $size;
+  height: $size;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.timer-outer {
+  @include timer-circle('outer');
+  background: rgba(208, 208, 208, 0.25); 
+  margin-bottom: 8px
+}
+
+.timer-middle {
+  @include timer-circle('middle');
+  background: rgba(208, 208, 208, 0.5);
+}
+
+.timer-inner {
+  @include timer-circle('inner');
+  background: rgb(208, 208, 208); 
+}
+
+.timer-success {
+  background-color: rgb(129, 238, 166, 0.5);
+}
+.timer-warning {
+  background-color: rgba(255, 238, 83, 0.5);
+}
+
+.timer-danger {
+  background-color: rgba(255, 83, 83, 0.5);
+}

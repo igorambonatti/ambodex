@@ -1,0 +1,64 @@
+.top-container {
+  padding: 16px;
+  justify-content: space-between; 
+  div {
+    font-size: 14px;
+    color: #fff;
+  }
+}
+.body {
+  margin-top: 16px;
+  max-height: 100%;
+}
+.top-miner {
+  border-radius: 4px 4px 0px 0px;
+  background: var(--Color-Green, #81EEA6);
+  width: 78px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  margin-left: 10px;
+  padding: 4px;
+  >img{
+    margin-left: 6px;
+  }
+}
+.container {
+  padding-inline: 16px;
+  padding-block: 8px;
+  justify-content: space-between; 
+  border-radius: 8px;
+  height: 44px;
+  align-items: center;
+  border: 1px solid rgba(153, 153, 153, 0.10);
+  div {
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .bg-image {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: rgba(125, 230, 161, 0.05);
+    margin-right: 12px;
+  }
+}
+
+.bg-selected {
+  border: 1px solid var(--Color-Green, #81EEA6);
+  background: #294232;
+}
+
+.bg-unselected {
+  background-color: transparent; 
+}
+.miner-table-container{
+  max-height: calc(100% - 90px);
+}

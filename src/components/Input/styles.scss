@@ -1,0 +1,38 @@
+.input-primary-variant {
+  background: rgba(153, 153, 153, 0.1);
+  border: 1px solid transparent;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+  padding-right: 48px;
+
+  &:focus {
+    border-image: linear-gradient(170deg, #1b1b1b 0 50%, #88fcaf) 1;
+  }
+}
+.input-coin-variant {
+  background: transparent;
+  border: 1px solid transparent;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  &:focus {
+    // background: rgba(153, 153, 153, 0.1);
+    border-image: linear-gradient(170deg, #1b1b1b 0 60%, #88fcaf) 1;
+  }
+}
+
+
+.Icon {
+  position: absolute;
+  right: 14px;
+  opacity: 0.5;
+  top: 18px;
+
+  .GradientBorderInput:focus + & {
+    opacity: 1;
+  }
+}
